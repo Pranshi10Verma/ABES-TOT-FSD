@@ -1,0 +1,9 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 5px solid blue;
+    padding: 20px;
+    margin: 30px ;
+    box-sizing: content-box; /* Ensures padding and border are included in the total width and height */
+}
