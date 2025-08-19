@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 150px;
+  background: lightblue;
+  padding: 20px;
+  border: 5px solid blue;
+  margin: 20px auto;
+  box-sizing: border-box; /* important */
+}
