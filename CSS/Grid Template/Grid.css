@@ -1,0 +1,33 @@
+.Box{
+display: grid;
+grid-template-columns: 200px 200px 200px 100px  100px;
+height: 600px;
+width: 800px
+border: 2px solid black;
+}
+.Box1{
+height: 200px;
+width: 200px;
+border: 2px solid red;
+}
+.Box2{
+height: 200px;
+width: 200px;   
+border: 2px solid blue;
+}           
+.Box3{
+height: 200px;
+width: 200px;   
+border: 2px solid green;
+}
+.Box4{
+height: 200px;
+width: 200px;
+border: 2px solid yellow;
+}
+.Box5{
+height: 200px;
+width: 200px;
+border: 2px solid purple;
+
+}
