@@ -1,0 +1,68 @@
+/* 
+    background-color: lightpink;
+}
+h1{
+    background-color: blueviolet;
+}
+p {
+  text-align: center;
+  background-color: lightgray;
+  color: red;
+} */ 
+
+/* #p1{
+    background-color: lightblue;
+    text-align: center;
+    color: darkblue;
+}
+#p2{
+    background-color: lightgreen;
+    text-align: center;
+    color: darkgreen;
+} */
+/* .paragraph {
+    text-align: center;
+    color: darkred;
+    background-color: lightyellow;
+} */
+/* div.p{
+background-color: mediumblue;
+    text-align: center;
+    color: white;
+}
+div>p{
+background-color: mediumblue;
+    text-align: center;
+    color: white;
+}
+div+p{
+background-color: mediumblue;
+    text-align: center;
+    color: white;
+} */
+div~p{
+background-color: mediumblue;
+    text-align: center;
+    color: white;
+}
+/* p:hover{
+    background-color: lightcoral;
+    color: white;
+    font-size: 30px;
+
+} */
+
+p::before{
+    content: "Welcome to the ABES page! ";
+    color: darkblue;
+}
+p::after{
+    content: " - Enjoy your stay!";
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p::selection{
+    background-color: rgb(123, 123, 33);
+    color: black;
+    font-weight: bold;
+}
